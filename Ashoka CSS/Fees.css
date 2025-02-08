@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body {
+	background-image:url("../Ashoka School/Image/feesimage.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#hbtn {
+	position: relative;
+	left: 20px;
+	height: 50px;
+	width: 80px;
+	color: white;
+	background-color: red;
+	box-shadow: 2px 2px 10px blue;
+	border: 1px blue;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+#hbtn:hover{
+	background-color: blue;
+	color: darkred;
+}
+.section1 {
+	align-items: center;
+	position: relative;
+	margin-left: 400px;
+	margin-top: -50px;
+	height: 500px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #c0c0c0;
+	width: 450px;
+	background-color: #f0f0f0;
+	border: 1px solid #8080ff;
+}
+
+.logo {
+	position: relative;
+	height: 40%;
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px; text-align : center;
+	background-color: white;
+	text-align: center;
+}
+
+.schlogo {
+	margin-left: 120px;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+}
+
+.name {
+	position: relative;
+	margin-top: -50px;
+	height: 27%;
+	width: 100%;
+	text-align: center;
+	background-color: #e6e6e6;
+}
+
+.Fee {
+	width: 100%;
+	height: 150px;
+	background-color: #f2f2ff;
+	text-align: center;
+}
+
+.text {
+	height: 30px;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	box-shadow: 2px 2px solid gray;
+	border-radius: 5px;
+}
+
+.details::after {
+	content: "*";
+	color: red;
+	float: inherit;
+}
+
+.paybtn {
+	position: relative;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: -5px;
+	align-items: center;
+	width: 100%;
+	height: 10%;
+	background-color: #eaeaff;
+	text-align: center;
+}
+
+#payfee {
+	height: 40px;
+	width: 90px;
+	color: white;
+	margin-top: 5px;
+	border-radius: 5px;
+	box-shadow: 2px 2px #ff7d7d;
+	background-color: #ff8000;
+	border: 1px solid yellow;
+}
+
+#payfee:hover {
+	background-color: #18d86a;
+	color: #ff8000;
+	box-shadow: 2px 2px #18d86a;
+	cursor: pointer;
+}
+
+.text:hover {
+	border: 2px solid green;
+	background-color: #ddffdd;
+}

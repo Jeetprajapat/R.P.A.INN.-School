@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.header1 {
+	background-image: url("..\Ashoka School\Image\Stapgroup.jpg");
+	position: relative;
+	height: 650px;
+	width: 101.4%;
+	right: -25px;
+	top: -70px;
+	margin-left: -35px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.testimonials1{
+	height: 500px;
+	width: 1210px;
+	background-color: white;
+	margin-left: 40px;
+	box-shadow: 2px 2px 30px 10px gray;
+	border-radius: 10px;
+}
+.test-box{
+	height: 250px;
+	width: 250px;
+	background-color: transparent;
+	margin-left: 20px;
+	text-align: center;
+}
+h3{
+	color: #ffff1c;
+}
+.test-pic{
+	height: 150px;
+	width: 150px;
+	background-color: transparent;
+	margin-left: 30px;
+}
+.testimonials2{
+	height: 500px;
+	width: 1210px;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 40px;
+	box-shadow: 2px 2px 20px 10px gray;
+	border-radius: 10px;
+}
+.testimonials3{
+	height: 500px;
+	width: 1210px;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 40px;
+	box-shadow: 2px 2px 20px 10px gray;
+	border-radius: 10px;
+}
+.testimonials4{
+	height: 500px;
+	width: 1210px;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 40px;
+	box-shadow: 2px 2px 20px 10px gray;
+	border-radius: 10px;
+}
+.testimonials5{
+	height: 500px;
+	width: 1210px;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 40px;
+	box-shadow: 2px 2px 20px 10px gray;
+	border-radius: 10px;
+}
+.testimonials6{
+	height: 500px;
+	width: 1210px;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 40px;
+	box-shadow: 2px 2px 20px 10px gray;
+	border-radius: 10px;
+}

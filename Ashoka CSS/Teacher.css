@@ -1,0 +1,353 @@
+body {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.header-cont {
+    width: 1680px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.logo {
+    margin: 16px;
+    position: absolute;
+    top: 34px;
+    left: 80px;
+    height: 32px;
+    width: 122.07px;
+}
+
+.logn {
+    width: 130px;
+    height: 40px;
+    top: 40px;
+    left: 1320px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: white;
+    border: 1px solid #18A0FB;
+    border-radius: 5px;
+    color: #18A0FB;
+
+}
+
+.hed-btn {
+    width: 280px;
+    height: 40px;
+    top: 40px;
+    left: 1320px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.register {
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    top: 40px;
+    left: 1320px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #18A0FB;
+    color: white;
+    border: 1px #18A0FB;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 41px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 400px;
+    top: 41px;
+    width: 388px;
+    height: 18px;
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.box31 {
+    width: 750px;
+    height: 144px;
+    top: 750px;
+    left: 60px;
+    position: absolute;
+}
+
+.box32 {
+    width: 750px;
+    height: 144px;
+    top: 800px;
+    left: 60px;
+    position: absolute;
+}
+
+.box33 {
+    width: 750px;
+    height: 144px;
+    top: 800px;
+    left: 800px;
+    position: absolute;
+}
+
+.box34 {
+    width: 750px;
+    height: 144px;
+    top: 1000px;
+    left: 60px;
+    position: absolute;
+}
+
+.box35 {
+    width: 750px;
+    height: 144px;
+    top: 1000px;
+    left: 800px;
+    position: absolute;
+}
+
+.learn {
+    width: 130px;
+    height: 40px;
+    background-color: #18A0FB;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #18A0FB;
+}
+
+.box4 h2 {
+    text-align: center;
+    font-weight: bold;
+    top: 1250px;
+    left: 500px;
+    position: absolute;
+}
+
+.box4 p {
+    top: 1300px;
+    left: 500px;
+    position: absolute;
+}
+
+.box4 .subbox1 {
+    position: absolute;
+    top: 1400px;
+    left: 800px;
+    height: 30px;
+    width: 30px;
+}
+
+.box4 .subbox21 h4 {
+    position: absolute;
+    top: 1550px;
+    left: 60px;
+}
+
+.box4 .subbox21 p {
+    position: absolute;
+    top: 1590px;
+    left: 60px;
+}
+
+.box4 .subbox22 h4 {
+    position: absolute;
+    top: 1690px;
+    left: 60px;
+
+}
+
+.box4 .subbox22 p {
+    position: absolute;
+    top: 1730px;
+    left: 60px;
+}
+
+.box4 .subbox23 h4 {
+    position: absolute;
+    top: 1820px;
+    left: 60px;
+}
+
+.box4 .subbox23 p {
+    position: absolute;
+    top: 1860px;
+    left: 60px;
+}
+
+.h_5 {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    left: 500px;
+    top: 2200px;
+}
+
+.p_5 {
+    position: absolute;
+    left: 500px;
+    top: 2250px;
+}
+
+.subbox51 {
+    position: absolute;
+    top: 2350px;
+}
+
+.subbox511 {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    border: 1px solid gray;
+    box-shadow: 1cm;
+}
+
+.subbox512 {
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    border: 1px solid gray;
+}
+
+.subbox513 {
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+    border: 1px solid gray;
+}
+
+.box6 {
+    position: absolute;
+    top: 2800px;
+    left: 700px;
+}
+
+.box6 h3,
+h1 {
+    text-align: center;
+}
+
+.box6 p {
+    text-align: center;
+}
+
+.box61 {
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+
+}
+
+.inputbox {
+    place-items: center;
+    margin: 25px;
+    left: 10px;
+}
+
+#pass {
+    position: absolute;
+    width: 340px;
+}
+
+.form-btn1 {
+    position: absolute;
+    margin: 25px;
+    top: 320px;
+    background-color: #18A0FB;
+    color: white;
+    border: 1px solid #18A0FB;
+    border-radius: 3px;
+}
+
+.footer {
+    position: absolute;
+    top: 450px;
+    height: 200px;
+    width: 200%;
+    background-color: black;
+    left: 0px;
+}
+
+.footer .foot-text #text1 {
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    color: white;
+}
+
+.footer .foot-text #text1 h4 {
+    font-weight: bold;
+    color: white;
+}
+
+.footer .foot-text #text2 {
+    position: absolute;
+    left: 400px;
+    text-align: center;
+    color: white;
+}
+
+.footer .foot-text #text2 h4 {
+    font-weight: bold;
+    color: white;
+}
+
+.footer .foot-text #text3 {
+    position: absolute;
+    left: 600px;
+    text-align: center;
+    color: white;
+}
+
+.footer .foot-text #text3 h4 {
+    font-weight: bold;
+    color: white;
+}
+
+.footer .f-logo {
+    width: 1680px;
+    margin: 0 auto;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+}
+
+.foot-btn {
+    position: absolute;
+    left: 800px;
+    top: 160px;
+}
+
+.foot-btn .foot-reg {
+    border: #18A0FB;
+    color: white;
+    background-color: #18A0FB;
+    border-radius: 2px;
+}
+
+.foot-btn .foot-log {
+    color: #18A0FB;
+    background-color: white;
+    border: #18A0FB;
+    border-radius: 2px;
+}

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.table_btn {
+  background-color: white;
+  color: black;
+  text-align: left;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.droptable{
+  color: black;
+  width: 90%;
+  height: 550px;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+/* Dropdown button on hover & focus */
+.table_btn:hover, .table_btn:focus {
+  background-color: #d9d9ff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.droptable {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.drop_content {
+	width: 100%;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+ table {
+ background-color: #d9d9ff;
+  color: black;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+table tr th {
+ background-color: #d9d9ff;
+  color: black;
+  width: 50px;
+}
+
+table td{
+	text-align: center;
+}
+
+ a:hover{
+	color: navy;
+	cursor: pointer;
+}
+
+/*.drop_content a:hover {background-color: #ddd;} */
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

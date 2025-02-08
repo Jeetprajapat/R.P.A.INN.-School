@@ -1,0 +1,213 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 1px;
+}
+.videos{
+	height: 100%;
+	width: 100%;
+}
+#myVideo {
+	position: relative;
+	top: 20px;
+  position: inherit;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  right: 0;
+  bottom: 0;
+  
+}
+.section1 {
+	align-items: center;
+	position: relative;
+	left: 400px;
+	margin-top: -700px;
+	height: 400px;
+	box-shadow: 5px 5px 10px #c0c0c0;
+	width: 450px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #033350;
+}
+
+.logo {
+	position: relative;
+	height: 10%;
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px; 
+	text-align : center;
+	background-color: transparent;
+	text-align: center;
+}
+
+.schlogo {
+	margin-left: 120px;
+	margin-top: 30px;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+}
+
+.name {
+	position: relative;
+	margin-top: 120px;
+	height: 30%;
+	width: 100%;
+	text-align: center;
+	background-color: #f2f2ff;
+}
+.name h1{
+	color: #033350;
+	font-family: cursive;
+	font-size: 25px;
+	text-shadow: none;
+	font-style: oblique;
+	font-weight: normal;
+	text-align: center;
+}
+
+.details, p{
+	color: #033350;
+	font-family: cursive;
+	font-size: 15px;
+	text-align: center;
+}
+
+#image{
+    margin-top: -100px;
+    top: -25px; position: relative;
+    width: 90px;;
+    padding: 20px;
+    font-weight: 20;
+    padding-bottom: -30px;
+    height: 20px;
+    border-radius: 5px;
+    user-select: none;
+    text-decoration:line-through;
+    font-style: italic;
+    font-size: x-large;
+    border: black 0px solid;
+    margin-left: -130px;
+    
+}
+#user-input{
+	position: relative;
+	margin-top: -100px;
+    width:auto;
+    top: -40px;
+    border-radius: 5px;
+    left: 250px;
+    margin-right: -10px;
+    height: 30px;
+}
+input:hover{
+	background-color: #d2ffd2;
+	border: 2px solid green;
+}
+input{
+    border:1px black solid;
+    height: 30px;
+    border-radius: 5px;
+}
+.fa-refresh{
+	position: relative;
+	top: -50px;
+	color: black;
+}
+.inline{
+    display:inline-block;
+    height: 0px;
+    width: -30px;
+    color: #05315c;
+    position: relative;
+    top: -40px;
+    background-color: silver;
+}
+
+.forgotP {
+	position: relative;
+	color: #8080ff;
+	font-family: cursive;
+	font-size: 15px;
+	margin-left: -50px;
+	top: 23px;
+}
+
+.forgotId{
+	position: relative;
+	top: 23px;
+	color: #8080ff;
+	font-family: cursive;
+	font-size: 15px;
+	left: 40px;
+	margin-left: 60px;
+}
+.forgotP:hover, .forgotId:hover{
+	color: Green;
+}
+.Fee {
+	width: 100%;
+	height: 180px;
+	background-color: #f2f2ff;
+	text-align: center;
+}
+
+.text {
+	height: 30px;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	box-shadow: 2px 2px solid #8080ff;
+	border-radius: 5px;
+}
+
+.details::after {
+	content: "*";
+	color: red;
+	float: inherit;
+}
+
+.paybtn {
+	position: relative;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: -35px;
+	align-items: center;
+	width: 100%;
+	height: 15%;
+	background-color: #f2f2ff;
+	text-align: center;
+}
+
+#payfee {
+	position: relative;
+	height: 40px;
+	width: 90px;
+	color: white;
+	margin-top: 5px;
+	left: 50px;
+	border-radius: 5px;
+	box-shadow: 2px 2px #8080ff;
+	background-color: #8080ff;
+	border: 1px solid yellow;
+}
+
+#payfee:hover {
+	background-color: #18d86a;
+	color: #800040;
+	box-shadow: 2px 2px #18d86a;
+	cursor: pointer;
+}
+
+.text:hover {
+	border: 2px solid green;
+	background-color: #ddffdd;
+}

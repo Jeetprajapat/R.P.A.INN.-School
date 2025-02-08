@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.header1 {
+	background-image: url('../Ashoka School/Image/Schoolbulding.jpg');
+	position: relative;
+	height: 650px;
+	width: 101.4%;
+	right: -25px;
+	top: -20px;
+	margin-left: -35px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.prancipal {
+	position: relative;
+	bottom: 1000px;
+	height: 700px;
+	width: 1275px;
+	top: -20px;
+	margin-left: -20px;
+	background-color: #f0e1ff;
+}
+
+.prancipal_image {
+	position: relative;
+	height: 600px;
+	width: 400px;
+	background-color: transparent;
+	margin-left: 60px;
+	box-shadow: 8px 8px 10px #808080;
+	top: 50px;
+	border-radius: 10px;
+}
+
+img {
+	opacity: 2;
+}
+
+.pranc_sp_h h1 {
+	height: 50px;
+	width: 500px;
+	text-align: center;
+	color: darkred;
+	text-shadow: 0px 0px darkred; background-color : transparent;
+	position: relative;
+	margin-left: 600px;
+	background-color: transparent; position : relative; margin-left : 600px;
+	top: -580px;
+	font-size: 40px;
+}
+
+.pranc_sp {
+	height: 250px;
+	width: 550px;
+	background-color: transparent;
+	position: relative;
+	margin-left: 600px;
+	top: -580px;
+}
+
+#pr_para {
+	font-size: 20px;
+	font-weight: lighter;
+	font-style: oblique;
+	color: #808080;
+	line-height: 40px;
+}
